@@ -1,0 +1,18 @@
+# World to clear (case-sensitive, must match the world folder name).
+world: FLAT
+
+# How often to clear, in minutes.
+interval-minutes: 5
+
+# Opposite corners of the region. Decimals are floored to the block they fall in.
+pos1:
+  x: 121.700
+  y: 85
+  z: 1.300
+pos2:
+  x: -3.700
+  y: 96.2000
+  z: 126.700
+
+# Log a line to the console when each clear pass finishes.
+log-runs: false

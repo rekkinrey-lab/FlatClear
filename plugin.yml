@@ -1,0 +1,14 @@
+name: FlatClear
+version: 1.0.0
+main: com.example.flatclear.FlatClear
+api-version: "1.21"
+description: Clears a set region of the FLAT world on a timer.
+commands:
+  flatclear:
+    description: Control the FlatClear region cleaner.
+    usage: /flatclear <now|reload|info>
+    permission: flatclear.admin
+permissions:
+  flatclear.admin:
+    description: Allows use of /flatclear.
+    default: op
